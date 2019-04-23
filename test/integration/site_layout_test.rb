@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 require 'test_helper'
-
+# def setup
+#   @user = users(:michael)
+# end
 class SiteLayoutTest < ActionDispatch::IntegrationTest
   test 'layout links' do
     get root_path
